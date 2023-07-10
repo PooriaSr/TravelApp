@@ -7,6 +7,7 @@ class CityModels {
   String rating;
   String description;
   int price;
+  bool liked;
 
   CityModels(
       {required this.name,
@@ -16,7 +17,8 @@ class CityModels {
       required this.temp,
       required this.rating,
       required this.description,
-      required this.price});
+      required this.price,
+      required this.liked});
 }
 
 List<CityModels> citiesList = [
@@ -28,7 +30,8 @@ List<CityModels> citiesList = [
       temp: "25",
       rating: "4.6",
       description: "USA USA USA",
-      price: 3400),
+      price: 3400,
+      liked: false),
   CityModels(
       name: "Barcelona",
       location: "Spain",
@@ -37,7 +40,8 @@ List<CityModels> citiesList = [
       temp: "26",
       rating: "4.8",
       description: "Spain Spain Spain",
-      price: 5100),
+      price: 5100,
+      liked: false),
   CityModels(
       name: "Istanbul",
       location: "Turkiye",
@@ -46,7 +50,8 @@ List<CityModels> citiesList = [
       temp: "24",
       rating: "4.4",
       description: "Italy Italy Italy",
-      price: 1200),
+      price: 1200,
+      liked: false),
   CityModels(
       name: "Paris",
       location: "France",
@@ -55,5 +60,6 @@ List<CityModels> citiesList = [
       temp: "22",
       rating: "4.9",
       description: "France France France",
-      price: 5600),
+      price: 5600,
+      liked: false),
 ];
