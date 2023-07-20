@@ -29,7 +29,9 @@ List<CityModels> citiesList = [
       distance: "10000",
       temp: "25",
       rating: "4.6",
-      description: "USA USA USA",
+      description:
+          '''New York City, officially named the City of New York, is the most populous city in the United States, and the most densely populated major city in North America.
+The city is at the center of international finance, politics, entertainment, and culture, and is one of the world's major global cities (along with London, Tokyo and Paris) with a virtually unrivaled collection of museums, galleries, performance venues, media outlets, international corporations, and stock exchanges. The city is also home to the United Nations, along with all of the international missions associated with it.''',
       price: 3400,
       liked: false),
   CityModels(
