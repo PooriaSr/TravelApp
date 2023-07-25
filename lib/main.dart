@@ -300,7 +300,7 @@ class _HomeState extends State<Home> {
               decoration:
                   BoxDecoration(borderRadius: BorderRadius.circular(10)),
               child: Padding(
-                padding: const EdgeInsets.all(15.0),
+                padding: const EdgeInsets.fromLTRB(30, 15, 30, 0),
                 child: ExpandablePanel(
                     header: const Text("Description"),
                     expanded: Text(
